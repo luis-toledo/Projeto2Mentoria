@@ -1,0 +1,106 @@
+:root{
+    ---fonte-space-grotesk: font-family: 'Space Grotesk', sans-serif;
+    ---preto: #151515;
+    ---cinza-escuro: #242424;
+    ---verde: #4EE1A0;
+    ---cinza: #D9D9D9;
+    ---branco: #FFFFFF;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+body{
+    background: var(---preto);
+    font-family: var(---fonte-space-grotesk);
+    color: var(---branco) ;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 11.46%;
+}
+
+.oval-background{
+    position: absolute;
+    left: -100px;
+    top: 133px;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.bola-background{
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    left: 766px;
+    top: 521px;
+}
+
+.cabecalho{
+    display: flex;
+}
+
+.cabecalho-informacoes{
+    display: flex;
+    flex-direction: column;
+    max-width: 706px;
+    max-height: 303px;
+}
+
+.cabecalho-nome{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.cabecalho-apresentacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao-titulo{
+    font-weight: 700;
+    font-size: 88px;
+}
+
+.apresentacao-titulo-grupo{
+    display: flex;
+    gap: 32px;
+    font-weight: 700;
+    font-size: 88px;
+}
+
+.cabecalho-retangulo{
+    position: relative;
+    left: 19.41%;
+    right: 10.91%;
+    top: 58.09%;
+    bottom: 39.93%;
+}
+
+.cabecalho-texto{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(---cinza);
+}
+
+.contato-link{
+   font-weight: 700;
+   font-size: 16;
+   text-decoration: none;
+   color: var(---branco);
+}
+
+.cabecalho-perfil{
+    background-image: url('../img/minha-foto.svg');
+    background-repeat: no-repeat;
+    width: 40.09%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes-sociais-link{
+    padding: 0 3.6% ;
+}
